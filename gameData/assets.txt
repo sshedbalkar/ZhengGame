@@ -1,0 +1,96 @@
+{
+	"archetypes":
+	[
+		 ["hero","gamedata\\archetypes\\hero.txt"]
+		,["ghost","gamedata\\archetypes\\ghost.txt"]
+		,["greatsword","gamedata\\archetypes\\greatsword.txt"]
+
+//		,["sprite_test","gamedata\\archetypes\\sprite_test.txt"]
+
+		,["platform","gamedata\\archetypes\\platform.txt"]
+		,["platform1","gamedata\\archetypes\\platform1.txt"]
+		,["water","gamedata\\archetypes\\water.txt"]
+
+		,["dialogs_level0","gamedata\\archetypes\\dialogs_level0.txt"]
+		,["board0","gamedata\\archetypes\\board0.txt"]
+		,["snake","gamedata\\archetypes\\snake.txt"]
+		,["someone","gamedata\\archetypes\\someone.txt"]
+
+		,["building0","gamedata\\archetypes\\building0.txt"]
+		,["building1","gamedata\\archetypes\\building1.txt"]
+		,["wall","gamedata\\archetypes\\wall.txt"]
+		,["tree0","gamedata\\archetypes\\tree0.txt"]
+		,["posts","gamedata\\archetypes\\posts.txt"]
+		,["sunny_sky","gamedata\\archetypes\\sunny_sky.txt"]
+		,["blank","gamedata\\archetypes\\blank.txt"]
+
+		,["trap_fallingboulders","gamedata\\archetypes\\trap_fallingboulders.txt"]
+		,["level0_logic","gamedata\\archetypes\\level0_logic.txt"]
+		,["title","gamedata\\archetypes\\title.txt"]
+
+		,["boulder","gamedata\\archetypes\\boulder.txt"]
+
+	],
+	"sprites":
+	[
+		["blank","gamedata\\sprites\\sprite_blank.txt"]
+
+		,["hero_face","gamedata\\sprites\\sprite_hero_face.txt"]
+		,["hero_hair","gamedata\\sprites\\sprite_hero_hair.txt"]
+		,["hero_body","gamedata\\sprites\\sprite_hero_body.txt"]
+		,["hero_legs_stand","gamedata\\sprites\\sprite_hero_legs_stand.txt"]
+		,["hero_legs_run","gamedata\\sprites\\sprite_hero_legs_run.txt"]
+		,["hero_eye","gamedata\\sprites\\sprite_hero_eye.txt"]
+		,["hero_eye_cursed","gamedata\\sprites\\sprite_hero_eye_cursed.txt"]
+
+		,["someone_face","gamedata\\sprites\\sprite_someone_face.txt"]
+		,["someone_hair","gamedata\\sprites\\sprite_someone_hair.txt"]
+		,["someone_body","gamedata\\sprites\\sprite_someone_body.txt"]
+		,["someone_legs","gamedata\\sprites\\sprite_someone_legs.txt"]
+		,["someone_eye","gamedata\\sprites\\sprite_someone_eye.txt"]
+
+		,["ghost_face","gamedata\\sprites\\sprite_ghost_face.txt"]
+		,["ghost_body","gamedata\\sprites\\sprite_ghost_body.txt"]
+		,["ghost_eye","gamedata\\sprites\\sprite_ghost_eye.txt"]
+		,["ghost_hat","gamedata\\sprites\\sprite_ghost_hat.txt"]
+
+		,["snake","gamedata\\sprites\\sprite_snake.txt"]
+
+		,["boulder","gamedata\\sprites\\sprite_boulder.txt"]
+		,["boulder_explode","gamedata\\sprites\\sprite_boulder_explode.txt"]
+
+		,["sword_blade","gamedata\\sprites\\sprite_sword_blade.txt"]
+		,["sword_hilt","gamedata\\sprites\\sprite_sword_hilt.txt"]
+
+		,["board0","gamedata\\sprites\\sprite_board0.txt"]
+
+		,["building0","gamedata\\sprites\\sprite_building0.txt"]
+		,["building1","gamedata\\sprites\\sprite_building1.txt"]
+		,["roof0","gamedata\\sprites\\sprite_roof0.txt"]
+		,["window0","gamedata\\sprites\\sprite_window0.txt"]
+		,["window1","gamedata\\sprites\\sprite_window1.txt"]
+		,["balcony0","gamedata\\sprites\\sprite_balcony0.txt"]
+
+		,["wall","gamedata\\sprites\\sprite_wall.txt"]
+
+		,["tree_trunk0","gamedata\\sprites\\sprite_tree_trunk0.txt"]
+		,["tree_leaves0","gamedata\\sprites\\sprite_tree_leaves0.txt"]
+		,["posts","gamedata\\sprites\\sprite_posts.txt"]
+
+		,["grass","gamedata\\sprites\\sprite_grass.txt"]
+		,["grass1","gamedata\\sprites\\sprite_grass1.txt"]
+		,["wave","gamedata\\sprites\\sprite_wave.txt"]
+		,["block","gamedata\\sprites\\sprite_block.txt"]
+
+		,["sun","gamedata\\sprites\\sprite_sun.txt"]
+		,["sunglow","gamedata\\sprites\\sprite_sunglow.txt"]
+		,["moon","gamedata\\sprites\\sprite_moon.txt"]
+		,["cloud","gamedata\\sprites\\sprite_cloud.txt"]
+
+		,["static_circle_filled","gamedata\\sprites\\sprite_static_circle_filled.txt"]
+
+		,["dialog_popup","gamedata\\sprites\\sprite_dialog_popup.txt"]
+		,["dialog_shrink","gamedata\\sprites\\sprite_dialog_shrink.txt"]
+
+	]
+}

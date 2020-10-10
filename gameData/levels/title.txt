@@ -1,0 +1,12 @@
+{
+	"abstract_width": 800,
+	"abstract_height":480,
+	"background_color":[255,255,255],
+	"fake_shadow_offset_x":0.2,
+	"fake_shadow_offset_y":0.2,
+	"objects":
+	[
+//		["boulder", 2.0,2.0,0.0,10.0,10.0]
+		["title", 0.0,0.0,0.0,800.0,480.0]
+	]
+}

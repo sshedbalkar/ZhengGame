@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":50000,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\static_circle_filled.bmp", 
+				"texture":"resources\\blank.bmp"
+			}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":50000,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\sun0_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			}
+	]
+}

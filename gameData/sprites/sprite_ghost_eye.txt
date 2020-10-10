@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":500,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\ghost_eye0_alpha.bmp", 
+				"texture":"resources\\ghost_eye0.bmp"
+			}
+	]
+}

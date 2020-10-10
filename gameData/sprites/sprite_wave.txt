@@ -1,0 +1,35 @@
+{
+	"loop":1,
+	"frametime":140,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\wave0_alpha.bmp", 
+				"texture":"resources\\wave0.bmp"
+			},
+			{
+				"alpha_texture":"resources\\wave1_alpha.bmp", 
+				"texture":"resources\\wave1.bmp"
+			},
+			{
+				"alpha_texture":"resources\\wave2_alpha.bmp", 
+				"texture":"resources\\wave2.bmp"
+			},
+			{
+				"alpha_texture":"resources\\wave3_alpha.bmp", 
+				"texture":"resources\\wave3.bmp"
+			},
+			{
+				"alpha_texture":"resources\\wave4_alpha.bmp", 
+				"texture":"resources\\wave4.bmp"
+			},
+			{
+				"alpha_texture":"resources\\wave5_alpha.bmp", 
+				"texture":"resources\\wave5.bmp"
+			},
+			{
+				"alpha_texture":"resources\\wave6_alpha.bmp", 
+				"texture":"resources\\wave6.bmp"
+			}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":500,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\tree_trunk0_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			}
+	]
+}

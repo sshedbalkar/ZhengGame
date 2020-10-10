@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0_core">
+      <UniqueIdentifier>{1d83316b-2a0a-4a8d-ab1d-61f42a4e21c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_composition">
+      <UniqueIdentifier>{52692b18-ac09-4510-a4ad-4103cf5e785a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8_Main">
+      <UniqueIdentifier>{7b482d89-204d-498f-b415-53cf027903ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7_utilities">
+      <UniqueIdentifier>{ce8c011c-2fce-4962-bead-be3b9638ffa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Data">
+      <UniqueIdentifier>{7b1d3096-ca02-4253-b5ed-33cd91c483c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Data\shaders">
+      <UniqueIdentifier>{1ed16ca9-643c-42ec-9741-44b09b1f1ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Data\sprites">
+      <UniqueIdentifier>{3047d9c4-2c8a-4380-a1b5-e9f82ba5f160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Data\archetypes">
+      <UniqueIdentifier>{259a0029-2035-4b8b-997f-b8dec595252d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Data\levels">
+      <UniqueIdentifier>{70ee819b-6ff9-4c47-9b4e-ae02d57de6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5_gamelogics">
+      <UniqueIdentifier>{b7186446-784d-48ec-9a6d-774836bdb3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_physicalLogics">
+      <UniqueIdentifier>{b65dada7-dc87-4311-b6a4-e8281655bbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_physicalLogics\collisionLogics">
+      <UniqueIdentifier>{915c1b42-0557-4cd4-973f-2fde4956962c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3_physicalLogics\movementLogics">
+      <UniqueIdentifier>{32b46255-2cfd-4d1b-a603-e2388638dfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4_Messages">
+      <UniqueIdentifier>{0920855a-f8ca-4194-9a51-ec1ca5970d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2_composition\components">
+      <UniqueIdentifier>{519dee23-2046-4434-b026-762bb4688952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_systems">
+      <UniqueIdentifier>{9eb7a554-a365-429f-b4e0-94c2500d8e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_systems\graphics">
+      <UniqueIdentifier>{94d346ec-c33d-4118-bf79-a6274f6858d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_systems\Physics">
+      <UniqueIdentifier>{9cfc9778-437a-49b9-b5a4-ea84f78cf539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_systems\input">
+      <UniqueIdentifier>{8e9b0d77-1a55-4679-88db-99e42f6e39a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_systems\factory">
+      <UniqueIdentifier>{3db8354f-751f-42cd-aa24-f3e8c3b0ba0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_systems\LogicSystem">
+      <UniqueIdentifier>{c8f87bc5-2014-47cc-803a-ce5c906da308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1_systems\Movement">
+      <UniqueIdentifier>{648d2b68-a35e-4dff-8721-6911865b5528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Data\archetypes\environment">
+      <UniqueIdentifier>{bef168c9-a7c2-447d-b2c6-79a995799c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9_Data\archetypes\enemies">
+      <UniqueIdentifier>{94986bfd-4864-41fd-95e3-cf530bb8f4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5_gamelogics\collisionHandling">
+      <UniqueIdentifier>{d368f9c5-f9e0-46bd-a332-40315a4f3852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5_gamelogics\stateMachines">
+      <UniqueIdentifier>{0aad165c-3361-40ec-91ca-00d6a25e93fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5_gamelogics\inputHandling">
+      <UniqueIdentifier>{e9fcca53-8b05-4fb9-935b-efcd799ca87f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5_gamelogics\environmentGenerators">
+      <UniqueIdentifier>{1c5c39ed-38fb-4d80-8dfc-2b1a14bde714}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\graphics.h">
+      <Filter>1_systems\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core.h">
+      <Filter>0_core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\system.h">
+      <Filter>1_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="source\message.h">
+      <Filter>4_Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\component.h">
+      <Filter>2_composition</Filter>
+    </ClInclude>
+    <ClInclude Include="source\composition.h">
+      <Filter>2_composition</Filter>
+    </ClInclude>
+    <ClInclude Include="source\transform.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\math.h">
+      <Filter>7_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\factory.h">
+      <Filter>1_systems\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\componentcreator.h">
+      <Filter>1_systems\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sprite.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\utility.h">
+      <Filter>7_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\archetype.h">
+      <Filter>1_systems\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\substance.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\steering.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\body.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utility3D.h">
+      <Filter>7_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\input.h">
+      <Filter>1_systems\input</Filter>
+    </ClInclude>
+    <ClInclude Include="source\logicSystem.h">
+      <Filter>1_systems\LogicSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gameLogic.h">
+      <Filter>5_gamelogics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\allComponents.h">
+      <Filter>2_composition</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physics.h">
+      <Filter>1_systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\logicComposition.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physicsComposition.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physicalLogic.h">
+      <Filter>3_physicalLogics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\allPhysics.h">
+      <Filter>3_physicalLogics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\movement.h">
+      <Filter>3_physicalLogics\movementLogics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gravityAffected.h">
+      <Filter>3_physicalLogics\movementLogics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\camera.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\allLogics.h">
+      <Filter>5_gamelogics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\input_messages.h">
+      <Filter>4_Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\other_messages.h">
+      <Filter>4_Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\platformAutoGeneration.h">
+      <Filter>5_gamelogics\environmentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="source\status.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\snapFromTerrain.h">
+      <Filter>5_gamelogics\collisionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\bounceTwiceAndSelfDestruct.h">
+      <Filter>5_gamelogics\collisionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CollisionTest.h">
+      <Filter>3_physicalLogics\collisionLogics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\bringDamage.h">
+      <Filter>5_gamelogics\collisionHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stateMachine.h">
+      <Filter>5_gamelogics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\platform1AutoGeneration.h">
+      <Filter>5_gamelogics\environmentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="source\waterAutoGeneration.h">
+      <Filter>5_gamelogics\environmentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="source\level0StateMachine.h">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="source\heroStateMachine.h">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TrapFallingBouldersStateMachine.h">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BoulderStateMachine.h">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="source\globalInputHandling.h">
+      <Filter>5_gamelogics\inputHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\heroInputHandling.h">
+      <Filter>5_gamelogics\inputHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dialogs.h">
+      <Filter>2_composition\components</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShowDialogs.h">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="source\chaseThePlayer.h">
+      <Filter>3_physicalLogics\movementLogics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ghostStateMachine.h">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="source\swordAttackInputHandling.h">
+      <Filter>5_gamelogics\inputHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\swordStateMachine.h">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="source\titleScreen.h">
+      <Filter>5_gamelogics\inputHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\backgroundStateMachine.h">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="source\heroAnimations.h">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\core.cpp">
+      <Filter>0_core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>8_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="source\graphics.cpp">
+      <Filter>1_systems\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\transform.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\factory.cpp">
+      <Filter>1_systems\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sprite.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\archetype.cpp">
+      <Filter>1_systems\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\substance.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\steering.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\body.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\input.cpp">
+      <Filter>1_systems\input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\logicSystem.cpp">
+      <Filter>1_systems\LogicSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\logicComposition.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physicsComposition.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physics.cpp">
+      <Filter>1_systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\movement.cpp">
+      <Filter>3_physicalLogics\movementLogics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gravityAffected.cpp">
+      <Filter>3_physicalLogics\movementLogics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\math.cpp">
+      <Filter>7_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\camera.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\platformAutoGeneration.cpp">
+      <Filter>5_gamelogics\environmentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="source\status.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\snapFromTerrain.cpp">
+      <Filter>5_gamelogics\collisionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bounceTwiceAndSelfDestruct.cpp">
+      <Filter>5_gamelogics\collisionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CollisionTest.cpp">
+      <Filter>3_physicalLogics\collisionLogics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bringDamage.cpp">
+      <Filter>5_gamelogics\collisionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\platform1AutoGeneration.cpp">
+      <Filter>5_gamelogics\environmentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="source\waterAutoGeneration.cpp">
+      <Filter>5_gamelogics\environmentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="source\level0StateMachine.cpp">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="source\heroStateMachine.cpp">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TrapFallingBouldersStateMachine.cpp">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BoulderStateMachine.cpp">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="source\globalInputHandling.cpp">
+      <Filter>5_gamelogics\inputHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\heroInputHandling.cpp">
+      <Filter>5_gamelogics\inputHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dialogs.cpp">
+      <Filter>2_composition\components</Filter>
+    </ClCompile>
+    <ClCompile Include="source\showdialogs.cpp">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="source\chaseThePlayer.cpp">
+      <Filter>3_physicalLogics\movementLogics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ghostStateMachine.cpp">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="source\swordAttackInputHandling.cpp">
+      <Filter>5_gamelogics\inputHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\swordStateMachine.cpp">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="source\titleScreen.cpp">
+      <Filter>5_gamelogics\inputHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\backgroundStateMachine.cpp">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="source\heroAnimations.cpp">
+      <Filter>5_gamelogics\stateMachines</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gameData\game.txt">
+      <Filter>9_Data</Filter>
+    </None>
+    <None Include="gameData\archetypes\hero.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\assets.txt">
+      <Filter>9_Data</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_hero_stand.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\levels\level0.txt">
+      <Filter>9_Data\levels</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_block.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\debugshader.fx">
+      <Filter>9_Data\shaders</Filter>
+    </None>
+    <None Include="gameData\shadowshader.fx">
+      <Filter>9_Data\shaders</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_mountains.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\shader.fx">
+      <Filter>9_Data\shaders</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_static_circle_filled.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_blank.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_grass.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_hero_body.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_hero_eye.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_hero_face.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_hero_hair.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_hero_legs_run.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_hero_legs_stand.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\archetypes\blank.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\archetypes\greatsword.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\archetypes\level0_logic.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\archetypes\building0.txt">
+      <Filter>9_Data\archetypes\environment</Filter>
+    </None>
+    <None Include="gameData\archetypes\tree0.txt">
+      <Filter>9_Data\archetypes\environment</Filter>
+    </None>
+    <None Include="gameData\archetypes\sunny_sky.txt">
+      <Filter>9_Data\archetypes\environment</Filter>
+    </None>
+    <None Include="gameData\archetypes\building1.txt">
+      <Filter>9_Data\archetypes\environment</Filter>
+    </None>
+    <None Include="gameData\archetypes\wall.txt">
+      <Filter>9_Data\archetypes\environment</Filter>
+    </None>
+    <None Include="gameData\archetypes\platform.txt">
+      <Filter>9_Data\archetypes\environment</Filter>
+    </None>
+    <None Include="gameData\archetypes\boulder.txt">
+      <Filter>9_Data\archetypes\enemies</Filter>
+    </None>
+    <None Include="gameData\archetypes\trap_fallingboulders.txt">
+      <Filter>9_Data\archetypes\enemies</Filter>
+    </None>
+    <None Include="gameData\archetypes\sprite_test.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\archetypes\platform1.txt">
+      <Filter>9_Data\archetypes\environment</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_balcony0.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_boulder.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_boulder_explode.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_building0.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_building1.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_ghost_body.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_ghost_eye.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_ghost_face.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_ghost_hat.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_grass1.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_roof0.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_sun.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_sunglow.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_sword_blade.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_sword_hilt.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_tree_leaves0.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_tree_trunk0.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_wall.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_window0.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\sprites\sprite_window1.txt">
+      <Filter>9_Data\sprites</Filter>
+    </None>
+    <None Include="gameData\archetypes\dialogs_level0.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\archetypes\board0.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\archetypes\posts.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\archetypes\water.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\levels\title.txt">
+      <Filter>9_Data\levels</Filter>
+    </None>
+    <None Include="gameData\archetypes\title.txt">
+      <Filter>9_Data\archetypes</Filter>
+    </None>
+    <None Include="gameData\archetypes\ghost.txt">
+      <Filter>9_Data\archetypes\enemies</Filter>
+    </None>
+  </ItemGroup>
+</Project>

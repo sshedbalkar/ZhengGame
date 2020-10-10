@@ -1,0 +1,31 @@
+{
+	"loop":1,
+	"frametime":100,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\ghost_body0_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			},
+			{
+				"alpha_texture":"resources\\ghost_body1_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			},
+			{
+				"alpha_texture":"resources\\ghost_body2_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			},
+			{
+				"alpha_texture":"resources\\ghost_body3_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			},
+			{
+				"alpha_texture":"resources\\ghost_body2_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			},
+			{
+				"alpha_texture":"resources\\ghost_body1_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			}
+	]
+}

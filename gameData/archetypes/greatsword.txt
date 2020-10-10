@@ -1,0 +1,46 @@
+{
+	"Transform":
+	{
+	},
+	"Steering":
+	{
+		"MaxSpeed":6.0,
+		"MaxAccel":25.0
+	},
+	"Body":
+	{
+	},
+	"Substance":
+	{
+		"offset_x":0.0,
+		"offset_y":0.0,
+		"offset_z":0.0,
+		"width":1.0,
+		"height":1.0,
+		"orientation":0.0,
+		"sprite":"blank",
+		"sub_substances":
+		[
+			{
+				"offset_x":0.0,
+				"offset_y":0.0,
+				"offset_z":0.0,
+				"width":1.0,
+				"height":1.0,
+				"orientation":0.0,
+				"sprite":"sword_blade"
+			}
+		]
+	},
+	"PhysicsComposition":
+	[
+		"CollisionTest"
+	],
+	"LogicComposition":
+	[
+		"BringDamage",
+		"SwordStateMachine",
+		"SwordAttackInputHandling"
+	]
+
+}

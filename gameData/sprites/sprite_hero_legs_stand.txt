@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":500,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\hero_legs0_alpha.bmp", 
+				"texture":"resources\\hero_legs0.bmp"
+			}
+	]
+}

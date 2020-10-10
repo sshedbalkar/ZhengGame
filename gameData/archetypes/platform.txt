@@ -1,0 +1,14 @@
+{
+	"Transform":
+	{
+	},
+	"Body":
+	{
+		"shape":"rectangle",
+		"type":"terrain"
+	},
+	"LogicComposition":
+	[
+		"PlatformAutoGeneration"
+	]
+}

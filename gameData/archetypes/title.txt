@@ -1,0 +1,13 @@
+{
+	"Transform":
+	{
+	},
+	"Camera":
+	{
+	},
+	"LogicComposition":
+	[
+//		"ShowDialogs"
+		"TitleScreen"
+	]
+}

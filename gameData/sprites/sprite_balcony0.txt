@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":80,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\balcony0_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			}
+	]
+}

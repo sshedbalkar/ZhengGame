@@ -1,0 +1,40 @@
+{
+	"Transform":
+	{
+
+	},
+	"Steering":
+	{
+		"MaxSpeed":10.0
+	},
+	"Substance":
+	{
+		"offset_x":0.0,
+		"offset_y":0.0,
+		"offset_z":0.0,
+		"width":1.0,
+		"height":1.0,
+		"orientation":0.0,
+		"sprite":"boulder",
+		"overwrite_r":0.62,
+		"overwrite_g":0.32,
+		"overwrite_b":0.18
+	},
+	"Body":
+	{
+		"shape":"circle",
+		"type":"terrain"
+	},
+	"PhysicsComposition":
+	[
+		"GravityAffected",
+		"Movement",
+		"CollisionTest"
+	],
+	"LogicComposition":
+	[
+		"BounceTwiceAndSelfDestruct",
+		"BringDamage",
+		"BoulderStateMachine"
+	]
+}

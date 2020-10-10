@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":500,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\grass0_alpha.bmp", 
+				"texture":"resources\\grass0.bmp"
+			}
+	]
+}

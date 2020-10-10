@@ -1,0 +1,8 @@
+{
+
+	"LogicComposition":
+	[
+		"GlobalInputHandling",
+		"Level0StateMachine"
+	]
+}

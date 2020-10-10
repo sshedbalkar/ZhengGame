@@ -1,0 +1,11 @@
+{
+	"width":800,
+	"height":480,
+	"title":"game engine by Zheng Dou(F1-Debug Drawing, F2-print frametime)",
+	"assets":"gameData\\assets.txt",
+	"levels":
+	[
+		 ["title","gameData\\levels\\title.txt"]
+		,["level0","gameData\\levels\\level0.txt"]
+	]
+}

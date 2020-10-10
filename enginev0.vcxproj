@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{66881D0D-E35B-425F-AF2F-4DA566CE2810}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>enginev0</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;json_debug.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <StringPooling>true</StringPooling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;winmm.lib;json.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="source\allComponents.h" />
+    <ClInclude Include="source\allLogics.h" />
+    <ClInclude Include="source\allPhysics.h" />
+    <ClInclude Include="source\archetype.h" />
+    <ClInclude Include="source\backgroundStateMachine.h" />
+    <ClInclude Include="source\body.h" />
+    <ClInclude Include="source\BoulderStateMachine.h" />
+    <ClInclude Include="source\bounceTwiceAndSelfDestruct.h" />
+    <ClInclude Include="source\bringDamage.h" />
+    <ClInclude Include="source\camera.h" />
+    <ClInclude Include="source\chaseThePlayer.h" />
+    <ClInclude Include="source\CollisionTest.h" />
+    <ClInclude Include="source\component.h" />
+    <ClInclude Include="source\componentcreator.h" />
+    <ClInclude Include="source\composition.h" />
+    <ClInclude Include="source\core.h" />
+    <ClInclude Include="source\dialogs.h" />
+    <ClInclude Include="source\factory.h" />
+    <ClInclude Include="source\gameLogic.h" />
+    <ClInclude Include="source\ghostStateMachine.h" />
+    <ClInclude Include="source\globalInputHandling.h" />
+    <ClInclude Include="source\graphics.h" />
+    <ClInclude Include="source\gravityAffected.h" />
+    <ClInclude Include="source\heroAnimations.h" />
+    <ClInclude Include="source\heroInputHandling.h" />
+    <ClInclude Include="source\heroStateMachine.h" />
+    <ClInclude Include="source\input.h" />
+    <ClInclude Include="source\input_messages.h" />
+    <ClInclude Include="source\level0StateMachine.h" />
+    <ClInclude Include="source\logicComposition.h" />
+    <ClInclude Include="source\logicSystem.h" />
+    <ClInclude Include="source\math.h" />
+    <ClInclude Include="source\message.h" />
+    <ClInclude Include="source\movement.h" />
+    <ClInclude Include="source\other_messages.h" />
+    <ClInclude Include="source\physicalLogic.h" />
+    <ClInclude Include="source\physicsComposition.h" />
+    <ClInclude Include="source\physics.h" />
+    <ClInclude Include="source\platform1AutoGeneration.h" />
+    <ClInclude Include="source\platformAutoGeneration.h" />
+    <ClInclude Include="source\ShowDialogs.h" />
+    <ClInclude Include="source\snapFromTerrain.h" />
+    <ClInclude Include="source\sprite.h" />
+    <ClInclude Include="source\stateMachine.h" />
+    <ClInclude Include="source\status.h" />
+    <ClInclude Include="source\steering.h" />
+    <ClInclude Include="source\substance.h" />
+    <ClInclude Include="source\swordAttackInputHandling.h" />
+    <ClInclude Include="source\swordStateMachine.h" />
+    <ClInclude Include="source\system.h" />
+    <ClInclude Include="source\titleScreen.h" />
+    <ClInclude Include="source\transform.h" />
+    <ClInclude Include="source\TrapFallingBouldersStateMachine.h" />
+    <ClInclude Include="source\utility.h" />
+    <ClInclude Include="source\Utility3D.h" />
+    <ClInclude Include="source\waterAutoGeneration.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\archetype.cpp" />
+    <ClCompile Include="source\backgroundStateMachine.cpp" />
+    <ClCompile Include="source\body.cpp" />
+    <ClCompile Include="source\BoulderStateMachine.cpp" />
+    <ClCompile Include="source\bounceTwiceAndSelfDestruct.cpp" />
+    <ClCompile Include="source\bringDamage.cpp" />
+    <ClCompile Include="source\camera.cpp" />
+    <ClCompile Include="source\chaseThePlayer.cpp" />
+    <ClCompile Include="source\CollisionTest.cpp" />
+    <ClCompile Include="source\core.cpp" />
+    <ClCompile Include="source\dialogs.cpp" />
+    <ClCompile Include="source\factory.cpp" />
+    <ClCompile Include="source\ghostStateMachine.cpp" />
+    <ClCompile Include="source\globalInputHandling.cpp" />
+    <ClCompile Include="source\graphics.cpp" />
+    <ClCompile Include="source\gravityAffected.cpp" />
+    <ClCompile Include="source\heroAnimations.cpp" />
+    <ClCompile Include="source\heroInputHandling.cpp" />
+    <ClCompile Include="source\heroStateMachine.cpp" />
+    <ClCompile Include="source\input.cpp" />
+    <ClCompile Include="source\level0StateMachine.cpp" />
+    <ClCompile Include="source\logicComposition.cpp" />
+    <ClCompile Include="source\logicSystem.cpp" />
+    <ClCompile Include="source\Main.cpp" />
+    <ClCompile Include="source\math.cpp" />
+    <ClCompile Include="source\movement.cpp" />
+    <ClCompile Include="source\physics.cpp" />
+    <ClCompile Include="source\physicsComposition.cpp" />
+    <ClCompile Include="source\platform1AutoGeneration.cpp" />
+    <ClCompile Include="source\platformAutoGeneration.cpp" />
+    <ClCompile Include="source\showdialogs.cpp" />
+    <ClCompile Include="source\snapFromTerrain.cpp" />
+    <ClCompile Include="source\sprite.cpp" />
+    <ClCompile Include="source\status.cpp" />
+    <ClCompile Include="source\steering.cpp" />
+    <ClCompile Include="source\substance.cpp" />
+    <ClCompile Include="source\swordAttackInputHandling.cpp" />
+    <ClCompile Include="source\swordStateMachine.cpp" />
+    <ClCompile Include="source\titleScreen.cpp" />
+    <ClCompile Include="source\transform.cpp" />
+    <ClCompile Include="source\TrapFallingBouldersStateMachine.cpp" />
+    <ClCompile Include="source\waterAutoGeneration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gameData\archetypes\blank.txt" />
+    <None Include="gameData\archetypes\board0.txt" />
+    <None Include="gameData\archetypes\boulder.txt" />
+    <None Include="gameData\archetypes\building0.txt" />
+    <None Include="gameData\archetypes\building1.txt" />
+    <None Include="gameData\archetypes\dialogs_level0.txt" />
+    <None Include="gameData\archetypes\ghost.txt" />
+    <None Include="gameData\archetypes\greatsword.txt" />
+    <None Include="gameData\archetypes\level0_logic.txt" />
+    <None Include="gameData\archetypes\platform.txt" />
+    <None Include="gameData\archetypes\hero.txt" />
+    <None Include="gameData\archetypes\platform1.txt" />
+    <None Include="gameData\archetypes\posts.txt" />
+    <None Include="gameData\archetypes\sprite_test.txt" />
+    <None Include="gameData\archetypes\sunny_sky.txt" />
+    <None Include="gameData\archetypes\title.txt" />
+    <None Include="gameData\archetypes\trap_fallingboulders.txt" />
+    <None Include="gameData\archetypes\tree0.txt" />
+    <None Include="gameData\archetypes\wall.txt" />
+    <None Include="gameData\archetypes\water.txt" />
+    <None Include="gameData\debugshader.fx" />
+    <None Include="gameData\game.txt" />
+    <None Include="gameData\assets.txt" />
+    <None Include="gameData\levels\level0.txt" />
+    <None Include="gameData\levels\title.txt" />
+    <None Include="gameData\shadowshader.fx" />
+    <None Include="gameData\sprites\sprite_balcony0.txt" />
+    <None Include="gameData\sprites\sprite_blank.txt" />
+    <None Include="gameData\sprites\sprite_block.txt" />
+    <None Include="gameData\sprites\sprite_boulder.txt" />
+    <None Include="gameData\sprites\sprite_boulder_explode.txt" />
+    <None Include="gameData\sprites\sprite_building0.txt" />
+    <None Include="gameData\sprites\sprite_building1.txt" />
+    <None Include="gameData\sprites\sprite_ghost_body.txt" />
+    <None Include="gameData\sprites\sprite_ghost_eye.txt" />
+    <None Include="gameData\sprites\sprite_ghost_face.txt" />
+    <None Include="gameData\sprites\sprite_ghost_hat.txt" />
+    <None Include="gameData\sprites\sprite_grass.txt" />
+    <None Include="gameData\sprites\sprite_grass1.txt" />
+    <None Include="gameData\sprites\sprite_hero_body.txt" />
+    <None Include="gameData\sprites\sprite_hero_eye.txt" />
+    <None Include="gameData\sprites\sprite_hero_face.txt" />
+    <None Include="gameData\sprites\sprite_hero_hair.txt" />
+    <None Include="gameData\sprites\sprite_hero_legs_run.txt" />
+    <None Include="gameData\sprites\sprite_hero_legs_stand.txt" />
+    <None Include="gameData\sprites\sprite_hero_stand.txt" />
+    <None Include="gameData\sprites\sprite_mountains.txt" />
+    <None Include="gameData\shader.fx" />
+    <None Include="gameData\sprites\sprite_roof0.txt" />
+    <None Include="gameData\sprites\sprite_static_circle_filled.txt" />
+    <None Include="gameData\sprites\sprite_sun.txt" />
+    <None Include="gameData\sprites\sprite_sunglow.txt" />
+    <None Include="gameData\sprites\sprite_sword_blade.txt" />
+    <None Include="gameData\sprites\sprite_sword_hilt.txt" />
+    <None Include="gameData\sprites\sprite_tree_leaves0.txt" />
+    <None Include="gameData\sprites\sprite_tree_trunk0.txt" />
+    <None Include="gameData\sprites\sprite_wall.txt" />
+    <None Include="gameData\sprites\sprite_window0.txt" />
+    <None Include="gameData\sprites\sprite_window1.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

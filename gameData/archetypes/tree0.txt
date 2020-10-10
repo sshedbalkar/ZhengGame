@@ -1,0 +1,30 @@
+{
+	"Transform":
+	{
+	},
+	"Substance":
+	{
+		"offset_x":0.0,
+		"offset_y":0.0,
+		"offset_z":0.0,
+		"width":1.0,
+		"height":1.0,
+		"orientation":0.0,
+		"sprite":"tree_leaves0",
+		"sub_substances":
+		[
+			{
+				"offset_x":0.0,
+				"offset_y":-0.27,
+				"offset_z":0.0,
+				"width":0.5,
+				"height":0.8,
+				"orientation":0.0,
+				"overwrite_r":0.9,
+				"overwrite_g":0.85,
+				"overwrite_b":0.6,
+				"sprite":"tree_trunk0"
+			}
+		]
+	}
+}

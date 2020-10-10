@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":500,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\posts_alpha.bmp", 
+				"texture":"resources\\blank.bmp"
+			}
+	]
+}

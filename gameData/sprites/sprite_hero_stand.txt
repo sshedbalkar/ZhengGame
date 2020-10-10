@@ -1,0 +1,15 @@
+{
+	"loop":1,
+	"frametime":500,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\hero0.bmp", 
+				"texture":"resources\\random.bmp"
+			},
+			{
+				"alpha_texture":"resources\\hero1.bmp", 
+				"texture":"resources\\random.bmp"
+			}
+	]
+}

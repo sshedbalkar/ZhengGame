@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":200,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\someone_eye_alpha.bmp", 
+				"texture":"resources\\someone_eye.bmp"
+			}
+	]
+}

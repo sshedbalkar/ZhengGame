@@ -1,0 +1,11 @@
+{
+	"loop":1,
+	"frametime":500,
+	"frames":
+	[
+			{
+				"alpha_texture":"resources\\snake0_alpha.bmp", 
+				"texture":"resources\\snake0.bmp"
+			}
+	]
+}
